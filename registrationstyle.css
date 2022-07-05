@@ -1,0 +1,92 @@
+body {
+  background-repeat: no-repeat;
+  background-size: fill;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  background: #ffffff;
+  color: #1c1a5a;
+  left: 50%;
+  opacity: 80%;
+  padding: 20px;
+  text-align: center;
+  top: 50%;
+  width: 400px;
+}
+
+.formh1 {
+  color: #1c1a5a;
+  font-weight: 500;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="tel"] {
+  background: none;
+  border-radius: 12px;
+  border: 0;
+  border: 2px solid #1c1a5a;
+  color: #1c1a5a;
+  display: block;
+  margin: 20px auto;
+  outline: none;
+  padding: 14px 10px;
+  text-align: center;
+  transition: 0.24s;
+  width: 360px;
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus,
+.form input[type="tel"]:focus {
+  width: 380px;
+}
+
+.form input[type="submit"],
+.form input[type="button"] {
+  background: none;
+  border-radius: 24px;
+  border: 0;
+  border: 2px solid #1c1a5a;
+  color: #1c1a5a;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  outline: none;
+  padding: 14px;
+  text-align: center;
+  transition: 0.24s;
+  width: 140px;
+}
+
+.form input[type="submit"]:hover,
+.form input[type="button"]:hover {
+  background: #1c1a5a;
+  color: #ffffff;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1080px) {
+  body {
+    background-image: url(images/WAVES-DESKTOP.jpg);
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 1080px) {
+  body {
+    background-image: url(images/WAVES-MOBILE.jpg);
+  }
+}

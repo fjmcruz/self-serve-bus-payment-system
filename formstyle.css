@@ -1,0 +1,75 @@
+div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: right;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.form {
+  background: #1c1a5a;
+  color: #ffffff;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+}
+
+.form input[type="password"] {
+  background: none;
+  border-radius: 12px;
+  border: 0;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: block;
+  height: 10px;
+  margin: 2px auto;
+  outline: none;
+  padding: 14px 10px;
+  text-align: center;
+  transition: 0.24s;
+  width: 180px;
+}
+
+.form input[type="password"]:focus {
+  width: 188px;
+}
+
+.button {
+  background: none;
+  border-radius: 12px;
+  border: 0;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  outline: none;
+  padding: 14px 40px;
+  text-align: center;
+  transition: 0.24s;
+}
+
+.button:hover {
+  background: #ffffff;
+  color: #1c1a5a;
+}
